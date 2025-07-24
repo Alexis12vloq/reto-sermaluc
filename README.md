@@ -1,4 +1,4 @@
-# 🚀 Simplifud  
+# 🚀 Sermaluc  
 
 Este es un proyecto creado con [Next.js](https://nextjs.org), basado en [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -17,8 +17,8 @@ npm -v
 ## 🛠 Instalación
 Clona el repositorio y entra en la carpeta del proyecto:
 
-git clone https://github.com/Alexis12vloq/simplifud.git
--- cd simplifud
+git clone https://github.com/Alexis12vloq/sermaluc.git
+-- cd sermaluc
 
 ## Luego, instala las dependencias:
 
