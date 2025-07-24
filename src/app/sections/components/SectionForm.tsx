@@ -129,7 +129,7 @@ const SectionForm: React.FC<SectionFormProps> = ({
         sx={{ mt: 3 }}
         disabled={loading}
       >
-        {loading ? "Saving..." : "Save"}
+        {loading ? "Guardando..." : "Guardar"}
       </Button>
     </Box>
   );

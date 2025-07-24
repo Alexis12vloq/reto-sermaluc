@@ -56,7 +56,7 @@ const SectionList: React.FC<SectionListProps> = ({
   return (
     <TableContainer component={Paper} sx={{ maxWidth: '100%', mx: "auto", mt: 4 }}>
       {error && <Alert severity="error" sx={{ m: 2 }}>{error}</Alert>}
-      {loading && <Alert severity="info" sx={{ m: 2 }}>Loading...</Alert>}
+      {loading && <Alert severity="info" sx={{ m: 2 }}>Cargando...</Alert>}
       {!loading && sections.data.length === 0 && (
         <Alert severity="warning" sx={{ m: 2 }}>
           No sections found.
@@ -91,7 +91,7 @@ const SectionList: React.FC<SectionListProps> = ({
             color="primary"
             startIcon={<EditIcon />}
           >
-            Edit
+            Editar
           </Button>
           <Button
             variant="text"
